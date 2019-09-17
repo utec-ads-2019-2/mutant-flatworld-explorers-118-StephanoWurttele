@@ -11,11 +11,9 @@ private:
 	char dir;
 	unsigned short int xlimit;
 	unsigned short int ylimit;
-	vector<unsigned short int> nogozone;
 	bool dead;
 public:
 	Robot(unsigned short int x1, unsigned short int y1, char dire, unsigned short int xl, unsigned int yl):x(x1),y(y1),dir(dire),xlimit(xl),ylimit(yl){
-		nogozone={};
 		dead=false;
 	};
 
